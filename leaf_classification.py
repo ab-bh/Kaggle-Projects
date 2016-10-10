@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
 
 
-train=pd.read_csv('leaf.csv')											#read files
+train=pd.read_csv('train.csv')											#read files from pwd
 test=pd.read_csv('test.csv')
 
 le=LabelEncoder().fit(train.species)
